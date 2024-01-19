@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h3>PORTFOLIO</h3>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <i class="fas fa-times" onclick="closemenu()" id="closemenu"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()" id="openmenu"></i>
+        </nav>
+
+        <div class="intro">
+          <div class="image">
+            <img src="profile.jpg" alt="" />
+          </div>
+          <div class="header-text">
+            <h3>Hello Everyone, I'm <span>JENNY.</span></h3>
+            <h1><span>W</span>eb <span>D</span>esigner</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              tempora placeat autem nesciunt repellendus, aut ab. Fuga earum hic
+              cum consectetur illum natus! Quae, odio.
+            </p>
+            <br />
+
+            <ul class="personal-info">
+              <li>
+                <i class="fa-solid fa-calendar-days"></i> 31st December, 1992
+              </li>
+              <li><i class="fa-solid fa-phone"></i> 44 (012) 6954 783</li>
+              <li><i class="fa-solid fa-envelope"></i> myportfolio@jenny</li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> Santa monica bullevard
+              </li>
+            </ul>
+
+            <a href="images/MY CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------About Section------ -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2">
+            <h1 class="sub-title">ABOUT MYSELF</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+              vel cum ipsa perferendis, adipisci eum tempora. Atque itaque nihil
+              nobis maxime nisi amet illo laboriosam, voluptatum optio, sapiente
+              neque sunt. Sit repudiandae tempore doloremque atque. Atque itaque
+              nihil nobis maxime nisi amet illo laboriosam, voluptatum optio,
+              sapiente neque sunt. Sit repudiandae tempore doloremque atque.
+            </p>
+<br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in sapiente reiciendis tempora libero magni sed nam mollitia quia vero deserunt, maiores excepturi nemo hic necessitatibus! Dolorem eaque neque recusandae facere reiciendis veniam mollitia magni harum assumenda eos, repellendus placeat deserunt excepturi eligendi minima itaque quod ex corrupti dolore expedita optio! Quo repellat voluptatum, quas quaerat eligendi minima aspernatur animi non culpa fuga ut asperiores id amet soluta nihil enim. Nesciunt exercitationem totam minima distinctio eaque, aperiam sint. Ea ab perspiciatis ad fugiat, neque, labore quasi nesciunt eos doloribus harum accusantium voluptatibus cum eveniet voluptate repellat reiciendis eaque quidem. Minima.</p>
+            <br />
+          </div>
+
+          <div class="about-col-1">
+            <div class="skill_main">
+              <div class="skill_item">
+                <h4>JavaScript <span class="counter">85</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>CSS <span class="counter">90</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>HTML <span class="counter">95</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 95%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>Designing <span class="counter">95</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 95%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>React <span class="counter">75</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------Experience and Education--------- -->
+    <div id="experience">
+      <div class="container">
+        <div class="tab-titles">
+          <button id="experience-btn">My Experience</button>
+          <button id="education-btn">Education</button>
+        </div>
+
+        <div class="tab-contents" id="education-tab">
+          <ul>
+            <li>
+              <span>2017 - 2019</span><br />M.Tech | Computer Science | 90%
+            </li>
+            <li><span>2012 - 2016</span><br />B.Tech| Computer Science| 76%</li>
+            <li><span>2012</span><br />Intermediate| Science Stream | 80%</li>
+            <li><span>2010</span><br />Matriculation| Science Stream | 80%</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience-tab" >
+          <ul>
+            <li>
+              <span>March 2022 to Present</span><br /> <br>Senior Web Developer
+              | XYZ Company Pvt. Ltd | Los, Maharashtra
+            </li>
+            <li>
+              <span>From 2020 to Feb 2022</span><br /> <br>Web Developer
+              | XYZ Company Pvt. Ltd | Los, Maharashtra
+            </li>
+            <li>
+              <span>From 2019- Feb 2020</span><br /><br>Junior Web Developer
+              | XYZ Company Pvt. Ltd | Los, Maharashtra
+            </li>
+            <li>
+              <span>From March 2017- Jan 2019</span><br /><br>Intern Web Developer
+              | XYZ Company Pvt. Ltd | Los, Maharashtra
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ---------Services---------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">OFFERINGS TO MY CLIENTS</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit perferendis eaque architecto iure, nisi molestias
+              delectus quidem soluta omnis ipsum eligendi vero eum iste, sint
+              eveniet est repellat vitae numquam.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit perferendis eaque architecto iure, nisi molestias
+              delectus quidem soluta omnis ipsum eligendi vero eum iste, sint
+              eveniet est repellat vitae numquam.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Graphics Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit perferendis eaque architecto iure, nisi molestias
+              delectus quidem soluta omnis ipsum eligendi vero eum iste, sint
+              eveniet est repellat vitae numquam.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">MY LATEST PROJECT</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="project-1.jpg" alt="" />
+            <div class="layer">
+              <h3>Image Slider</h3>
+              <p>
+                Allows you to slide image horizontally, make it using HTML and
+                CSS Only. It is responsive on any screen size.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="project-2.jpg" alt="" />
+
+            <div class="layer">
+              <h3>Stationary Website</h3>
+              <p>
+                Allows you to sign In, Sign-Up, and REset password if you
+                forgotton your password, Set new password.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+         
+          <div class="work">
+            <img src="project-3.jpg" alt="" />
+
+            <div class="layer">
+              <h3>Online calculator</h3>
+              <p>
+                Allows you to sign In, Sign-Up, and REset password if you
+                forgotton your password, Set new password.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <!-- <div class="work">
+            <img src="project-4.jpg" alt="" />
+
+            <div class="layer">
+              <h3>Stationary Website</h3>
+              <p>
+                Allows you to sign In, Sign-Up, and REset password if you
+                forgotton your password, Set new password.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div> -->
+
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- ---------contact section--------- -->
+
+    <div id="contact">
+      <div class="container">
+        <h1 class="sub-title">GET IN TOUCH</h1>
+        <div class="row">
+          <div class="contact-left">
+            <p><i class="fas fa-paper-plane"></i>myportfolio@jenny.com</p>
+            <p><i class="fas fas fas fa-phone-square-alt"></i>0123456789</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fab fa-linkedin"></i></a>
+            </div>
+            <a href="images/MY CV.pdf" download class="btn btn2">Hire Me</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright @ 2024. All right reserved by WebCoding
+        <i class="fas fa-heart"></i>
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+<!-- 
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxMpq61ax5qwtiyre9XjwHMUj4bJR_Q70tIY_XXWvmqWzxjSwFFoViRzbpN7-aDr0Ek/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script> -->
+  </body>
+</html>
