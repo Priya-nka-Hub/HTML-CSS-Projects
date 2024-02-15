@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ......CSS LINK......... -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome CDN Link......... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>FriendBook-  By Web Coding</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <nav>
+        <div class="nav-left">
+            <div class="logo">
+<img src="images/logo.jpg" alt="">
+            </div>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+<input type="text" placeholder="Search FriendBook">
+            </div>
+            
+        </div>
+
+        <div class="nav-center">
+            <i class="fa-solid fa-house"></i>
+            <a href=""><i class="fa-solid fa-tv"></i> </a>
+            <a href=""><i class="fa-solid fa-store"></i> </a>
+            <a href=""> <i class="fa-solid fa-users"></i></a>
+            <a href=""> <i class="fa-solid fa-gamepad"></i></a>
+        </div>
+
+        <div class="nav-right">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+
+            <!-- Part-2:Drop Down menu code starts from here..... -->
+            <img src="images/profile-pic.jpg" alt="" class="profile-pic" onclick="openCard()">
+
+          <div class="card-menu-wrap" id="cardWrap">
+            <div class="card-menu">
+                <div class="profile-menu">
+                    <img src="images/profile-pic.jpg" alt="">
+                    <p>Web Coding</p>
+                </div>
+
+                <a href="#" class="card-menu-items">
+                    <img src="images/meta icon.png" alt="">
+                    <p>Meta Business Suite</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="card-menu-items">
+                    <img src="images/settings.jpg" alt="">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="card-menu-items">
+                    <img src="images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="card-menu-items">
+                    <img src="images/display.jpg" alt="">
+                    <p>Display and Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="card-menu-items">
+                    <img src="images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    
+                </a>
+                <a href="#" class="card-menu-items">
+                    <img src="images/logout.png" alt="">
+                    <p>Logout</p>
+                   
+                </a>
+            </div>
+          </div>
+
+
+
+    
+        </div>
+        </nav>
+
+
+        <!-- .......Part-3: Main Section........... -->
+
+        <div class="main">
+
+            <!-- ......Left section starts from here..... -->
+
+            <div class="main-left">
+                <div class="img">
+                    <img src="images/profile-pic.jpg" alt="">
+                    <p>Web coding</p>
+                </div>
+                <div class="img">
+                    <img src="images/friends.png" alt="">
+                    <p>Friends</p>
+                </div>
+                <div class="img">
+                    <img src="images/news.png" alt="">
+                    <p>News</p>
+                </div>
+                <div class="img">
+                    <img src="images/group.png" alt="">
+                    <p>Groups</p>
+                </div>
+                <div class="img">
+                    <img src="images/marketplace.png" alt="">
+                    <p>Marketplace</p>
+                </div>
+                <div class="img">
+                    <img src="images/watch.png" alt="">
+                    <p>Watch</p>
+                </div>
+                <div class="img">
+                    <img src="images/promotion.png" alt="">
+                    <p>Notification</p>
+                </div>
+                <div class="img">
+                    <img src="images/see more.png" alt="">
+                    <p>See More</p>
+                </div>
+                <hr>
+
+                <div class="shortcuts">
+                    <p>Your Shorcuts</p>
+                    <a href="#">Edit</a>
+                </div>
+
+                <div class="img">
+                    <img src="images/bubble.png" alt="">
+                    <p>Bubble Game</p>
+                </div>
+
+                <div class="img">
+                    <img src="images/candy crush.jpg" alt="">
+                    <p>Candy Crush Saga</p>
+                </div>
+
+                <div class="img">
+                    <img src="images/buuble shooter.jpg" alt="">
+                    <p>Bubble Shooter</p>
+                </div>
+
+                <div class="img">
+                    <img src="images/web coding.png" alt="">
+                    <p>Web Coding</p>
+                </div>
+                <div class="img">
+                    <img src="images/web coding.png" alt="">
+                    <p>Learn Coding</p>
+                </div>
+                <div class="img">
+                    <img src="images/shortcut-2.png" alt="">
+                    <p>Online Marketing</p>
+                </div>
+                <div class="img">
+                    <img src="images/web coding.png" alt="">
+                    <p>Web Coding</p>
+                </div>
+
+            </div>
+            <!-- ......center section starts from here..... -->
+
+            <div class="center">
+
+                <div class="top_box">
+    
+                    <div class="my_story_card">
+    
+                        <img src="images/profile-pic.jpg">
+    
+                        <div class="story_upload">
+                            <img src="images/upload.png">
+                            <p class="story_tag">Create story</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="story_card">
+    
+                        <img src="images/story-1.png">
+    
+                        <div class="story_profile">
+    
+                            <img src="images/member-1.png">
+                            <div class="cricle"></div>
+                            
+                        </div>
+    
+                        <div class="story_name">
+                            <p class="name">S William</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="story_card">
+    
+                        <img src="images/story-2.png">
+    
+                        <div class="story_profile">
+    
+                            <img src="images/member-2.png">
+                            <div class="cricle"></div>
+                            
+                        </div>
+    
+                        <div class="story_name">
+                            <p class="name">Emily Johnson</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="story_card">
+    
+                        <img src="images/story-3.png">
+    
+                        <div class="story_profile">
+    
+                            <img src="images/member-3.png">
+                            <div class="cricle"></div>
+                            
+                        </div>
+    
+                        <div class="story_name">
+                            <p class="name">Kavisha Vidurangi</p>
+                        </div>
+    
+                    </div>                 
+    
+                </div>
+    
+    
+                <div class="my_post">
+    
+                    <div class="post_top">
+    
+                        <img src="images/profile-pic.jpg">
+                        <input type="text" placeholder="What's on you mind, Web Coding?">
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="post_bottom">
+    
+                        <div class="post_icon">
+                            <i class="fa-solid fa-video red"></i>
+                            <p>Live video</p>
+                        </div>
+    
+                        <div class="post_icon">
+                            <i class="fa-solid fa-images green"></i>
+                            <p>Photo/video</p>
+                        </div>
+    
+                        <div class="post_icon">
+                            <i class="fa-regular fa-face-grin yellow"></i>
+                            <p>Feeling/activity</p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    <!-- ........Post Section Code Start From Here............. -->
+    
+    
+                <div class="friends_post">
+    
+                    <div class="friend_post_top">
+    
+                        <div class="img_and_name">
+    
+                            <img src="images/member-1.png">
+    
+                            <div class="friends_name">
+                                <p class="friends_name">
+                                    Olivia Thompson
+                                </p>
+                                <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                            </div>
+                            
+    
+                        </div>
+    
+                        <div class="menu">
+    
+                            <i class="fa-solid fa-ellipsis"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                    <img src="images/post_1.png">
+    
+                    <div class="info">
+    
+                        <div class="emoji_img">
+                            <img src="images/like-blue.png">
+                            <img src="images/haha.png">
+                            <img src="images/heart.jpg">
+                            <p>You, Charith Disanayaka and 25K others</p>
+                        </div>
+    
+                        <div class="comment">
+                            <p>421 Comments</p>
+                            <p>1.3K Shares</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="like">
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-thumbs-up activi"></i>
+                            <p>Like</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Comments</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="comment_warpper">
+    
+                        <img src="images/member-5.png">
+                        <div class="circle"></div>
+    
+                        <div class="comment_search">
+    
+                            <input type="text" placeholder="Write a comment">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-note-sticky"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="friends_post">
+    
+                    <div class="friend_post_top">
+    
+                        <div class="img_and_name">
+    
+                            <img src="images/member-6.png">
+    
+                            <div class="friends_name">
+                                <p class="friends_name">
+                                    Isabella Anderson
+                                </p>
+                                <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                            </div>
+                            
+    
+                        </div>
+    
+                        <div class="menu">
+    
+                            <i class="fa-solid fa-ellipsis"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                    <img src="images/post_2.png">
+    
+                    <div class="info">
+    
+                        <div class="emoji_img">
+                            <img src="images/like-blue.png">
+                            <img src="images/haha.png">
+                            <img src="images/heart.jpg">
+                            <p>You,Olivia and 25K others</p>
+                        </div>
+    
+                        <div class="comment">
+                            <p>201 Comments</p>
+                            <p>899 Shares</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="like">
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-thumbs-up activi"></i>
+                            <p>Like</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Comments</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="comment_warpper">
+    
+                        <img src="images/member-1.png">
+                        <div class="circle"></div>
+    
+                        <div class="comment_search">
+    
+                            <input type="text" placeholder="Write a comment">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-note-sticky"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="friends_post">
+    
+                    <div class="friend_post_top">
+    
+                        <div class="img_and_name">
+    
+                            <img src="images/member-3.png">
+    
+                            <div class="friends_name">
+                                <p class="friends_name">
+                                    Alison Jaffe
+                                </p>
+                                <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                            </div>
+                            
+    
+                        </div>
+    
+                        <div class="menu">
+    
+                            <i class="fa-solid fa-ellipsis"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                    <img src="images/post_3.png">
+    
+                    <div class="info">
+    
+                        <div class="emoji_img">
+                            <img src="images/like-blue.png">
+                            <img src="images/haha.png">
+                            <img src="images/heart.jpg">
+                            <p>You, Alexander Lee and 2k others</p>
+                        </div>
+    
+                        <div class="comment">
+                            <p>121 Comments</p>
+                            <p>13 Shares</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="like">
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-thumbs-up activi"></i>
+                            <p>Like</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Comments</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="comment_warpper">
+    
+                        <img src="images/member-2.png">
+                        <div class="circle"></div>
+    
+                        <div class="comment_search">
+    
+                            <input type="text" placeholder="Write a comment">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-note-sticky"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="friends_post">
+    
+                    <div class="friend_post_top">
+    
+                        <div class="img_and_name">
+    
+                            <img src="images/member-5.png">
+    
+                            <div class="friends_name">
+                                <p class="friends_name">
+                                  Ethan Davis
+                                </p>
+                                <p class="time">16h.<i class="fa-solid fa-user-group"></i></p>
+                            </div>
+                            
+    
+                        </div>
+    
+                        <div class="menu">
+    
+                            <i class="fa-solid fa-ellipsis"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                    <img src="images/post_4.png">
+    
+                    <div class="info">
+    
+                        <div class="emoji_img">
+                            <img src="images/like-blue.png">
+                            <img src="images/haha.png">
+                            <img src="images/heart.jpg">
+                            <p>You, Winnie Hanson and 25 others</p>
+                        </div>
+    
+                        <div class="comment">
+                            <p>21 Comments</p>
+                            <p>1Shares</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="like">
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-thumbs-up activi"></i>
+                            <p>Like</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Comments</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="comment_warpper">
+    
+                        <img src="images/member-7.png">
+                        <div class="circle"></div>
+    
+                        <div class="comment_search">
+    
+                            <input type="text" placeholder="Write a comment">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-note-sticky"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="friends_post">
+    
+                    <div class="friend_post_top">
+    
+                        <div class="img_and_name">
+    
+                            <img src="images/member-8.png">
+    
+                            <div class="friends_name">
+                                <p class="friends_name">
+                                   Noah Martin
+                                </p>
+                                <p class="time">23h.<i class="fa-solid fa-user-group"></i></p>
+                            </div>
+                            
+    
+                        </div>
+    
+                        <div class="menu">
+    
+                            <i class="fa-solid fa-ellipsis"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                    <img src="images/post_6.png">
+    
+                    <div class="info">
+    
+                        <div class="emoji_img">
+                            <img src="images/like-blue.png">
+                            <img src="images/haha.png">
+                            <img src="images/heart.jpg">
+                            <p>You, Web Coding and 25K others</p>
+                        </div>
+    
+                        <div class="comment">
+                            <p>201 Comments</p>
+                            <p>899 Shares</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="like">
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-thumbs-up activi"></i>
+                            <p>Like</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Comments</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="comment_warpper">
+    
+                        <img src="images/member-1.png">
+                        <div class="circle"></div>
+    
+                        <div class="comment_search">
+    
+                            <input type="text" placeholder="Write a comment">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-note-sticky"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="friends_post">
+    
+                    <div class="friend_post_top">
+    
+                        <div class="img_and_name">
+    
+                            <img src="images/member-6.png">
+    
+                            <div class="friends_name">
+                                <p class="friends_name">
+                                    Alexander Lee
+                                </p>
+                                <p class="time">2 days ago.<i class="fa-solid fa-user-group"></i></p>
+                            </div>
+                            
+    
+                        </div>
+    
+                        <div class="menu">
+    
+                            <i class="fa-solid fa-ellipsis"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                    <img src="images/post_5.png">
+    
+                    <div class="info">
+    
+                        <div class="emoji_img">
+                            <img src="images/like-blue.png">
+                            <img src="images/haha.png">
+                            <img src="images/heart.jpg">
+                            <p>You, Alexander Lee and 2k others</p>
+                        </div>
+    
+                        <div class="comment">
+                            <p>121 Comments</p>
+                            <p>13 Shares</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="like">
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-thumbs-up activi"></i>
+                            <p>Like</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Comments</p>
+                        </div>
+    
+                        <div class="like_icon">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="comment_warpper">
+    
+                        <img src="images/member-3.png">
+                        <div class="circle"></div>
+    
+                        <div class="comment_search">
+    
+                            <input type="text" placeholder="Write a comment">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-note-sticky"></i>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="load">
+                    <button>Load More</button>
+                </div>
+    
+                
+    
+    
+            </div>
+    
+    
+            
+
+            <!-- ......Right section starts from here..... -->
+            <div class="main-right">
+                <div class="sponsored-section">
+                    <h4>Sponsored</h4>
+                    <div class="sponsored-link">
+                        <img src="images/advertisement.png" alt="">
+                        <p>Online Advertisement Services <br><a href="">onlineservices.com</a></p>
+                    </div>
+                    <div class="sponsored-link">
+                        <img src="images/advertisement.png" alt="">
+                        <p>Online Advertisement Services <br><a href="">onlineservices.com</a></p>
+                    </div>
+                </div>
+               <hr>
+
+               <div class="page-section">
+                <h4>Your pages and Profile</h4>
+                <div class="page-links">
+                    <img src="images/profile-pic.jpg" alt="">
+                    <p>Web Coding</p>
+                </div>
+
+                <div class="page-links-item">
+                    <img src="images/switch page.png" alt="">
+                    <p>Switch to page</p>
+                </div>
+                <div class="page-links-item">
+                    <img src="images/promotion.png" alt="">
+                    <p>Create Promotion</p>
+                </div>
+               </div>
+               <hr>
+
+               <div class="friend-section">
+                <h4>Friend Request</h4>
+                <div class="page-links">
+                    <img src="images/photo5.png" alt="">
+                    <p>Winnie Hansen</p>
+                </div>
+
+                <div class="buttons">
+                    <button type="submit" class="confirm">Confirm</button>
+                    <button type="submit" class="delete ">Delete</button>
+                </div>
+               </div>
+            <hr>
+
+            <div class="contact-section">
+                <div class="contact-search">
+
+                    <h4>Contacts</h4>
+                    <img src="images/search.png" alt="">
+                    <img src="images/dots.jpg" alt="">
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-5.png" alt="">
+                    </div>
+                    <p>Alison Jaffe</p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-2.png" alt="">
+                    </div>
+                    <p>Emily Johnson</p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-1.png" alt="">
+                    </div>
+                    <p>Sophia Williams</p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-3.png" alt="">
+                    </div>
+                    <p>Alexander Lee</p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                    <p>Ava Rodriguez</p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-7.png" alt="">
+                    </div>
+                    <p>Ethan Davis</p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-6.png" alt="">
+                    </div>
+                    <p>Isabella Anderson
+                    </p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-9.png" alt="">
+                    </div>
+                    <p>Noah Martin</p>
+                </div>
+                <div class="page-links">
+                    <div class="online">
+                        <img src="images/member-1.png" alt="">
+                    </div>
+                    <p>Olivia Thompson
+                    </p>
+                </div>
+            </div>
+
+          
+
+                    
+            
+               
+
+
+
+
+
+
+
+
+            </div>
+        
+</div>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
