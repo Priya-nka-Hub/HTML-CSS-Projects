@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Myntra Navbar</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <img
+            src="https://mumbaimirror.indiatimes.com/photo/80601325.cms"
+            alt=""
+          />
+          <ul class="nav-menu">
+            <li>MEN</li>
+            <li>WOMEN</li>
+            <li>KIDS</li>
+            <li>HOME & LIVING</li>
+            <li>BEAUTY</li>
+            <li class="studio">STUDIO <span>New</span></li>
+          </ul>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="nav-right">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              placeholder="Search for products, brands and more"
+            />
+          </div>
+
+          <div>
+            <i class="fa-regular fa-user"></i>
+            <p>Profile</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+            <p>Wishlist</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>Bag</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- <div class="container">
+      <a href="">
+        <img
+          src="https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/827b697d-155a-4895-92ad-75fbb07ca8a01707154477940-Desktop_Hp_01.jpg"
+          alt=""
+      /></a>
+
+      <a href="">
+        <img
+          src="https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/f6857071-a235-49de-a659-1ab08bcd41d11707154477945-Desktop_Hp_02.jpg"
+          alt=""
+        />
+      </a>
+    </div>
+
+    <div class="container">
+      
+                          
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/f4e2f6d0-dd93-4724-9787-b376b37b76761707130586807-Shop-By-Category_HP_02.jpg"
+                                srcset="">
+                        </div>
+                      
+              
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/94f1cb86-f527-4eac-aabd-0094b3e5cd101707130587091-Shop-By-Category_HP_03.jpg"
+                                srcset="" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/ec5b99e9-3f42-47fb-bf3b-e9a100aa7cf31707130587125-Shop-By-Category_HP_04.jpg"
+                                srcset="" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/d386b5c0-7260-431a-99d0-1b45576c143a1707130586847-Shop-By-Category_HP_05.jpg"
+                                srcset="" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/5cd5ecbf-9f62-41b4-bf9c-3672a61832721707130586969-Shop-By-Category_HP_06.jpg"
+                                srcset="" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/978422fe-85d4-456e-975e-0991d5e3ca741707130586940-Shop-By-Category_HP_07.jpg"
+                                srcset="" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/379717f8-45f4-49d9-8a2a-602a2ca8c4db1707130586928-Shop-By-Category_HP_08.jpg"
+                                srcset="" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/cb774401-d762-4cff-a3b4-a423cce3ddb51707130587038-Shop-By-Category_HP_09.jpg"
+                                srcset="" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/8b5b6aa7-41bf-4961-813d-882331e16eaf1707130587220-Shop-By-Category_HP_10.jpg"
+                                srcset="" /></picture
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column-base"
+                style="-webkit-box-flex: 1; flex: 1 1 0%"
+              >
+                <div class="container-base myx-stretch">
+                  <div style="padding-bottom: 130.62%">
+                    <div class="container-container container-aspectContainer">
+                      <div class="row-base" style="display: -webkit-flex">
+                        <div
+                          class="column-base"
+                          style="-webkit-box-flex: 1; flex: 1 1 0%"
+                        >
+                          <a
+                            href="https://www.myntra.com/watches?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+                            ><picture draggable="false" class="img-responsive"
+                              ><source
+                                srcset="
+                                  https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/488ee4ac-d93c-49f7-90b1-fd6d9e51fd241707130587207-Shop-By-Category_HP_11.jpg
+                                "
+                                type="image/webp" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/488ee4ac-d93c-49f7-90b1-fd6d9e51fd241707130587207-Shop-By-Category_HP_11.jpg"
+                                srcset="" /></picture
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column-base"
+                style="-webkit-box-flex: 1; flex: 1 1 0%"
+              >
+                <div class="container-base myx-stretch">
+                  <div style="padding-bottom: 130.62%">
+                    <div class="container-container container-aspectContainer">
+                      <div class="row-base" style="display: -webkit-flex">
+                        <div
+                          class="column-base"
+                          style="-webkit-box-flex: 1; flex: 1 1 0%"
+                        >
+                          <a
+                            href="https://www.myntra.com/beauty-page-appliances?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+                            ><picture draggable="false" class="img-responsive"
+                              ><source
+                                srcset="
+                                  https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/6f731a3e-f956-4b08-aa69-124df1fc01d11707130587155-Shop-By-Category_HP_12.jpg
+                                "
+                                type="image/webp" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/6f731a3e-f956-4b08-aa69-124df1fc01d11707130587155-Shop-By-Category_HP_12.jpg"
+                                srcset="" /></picture
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column-base"
+                style="-webkit-box-flex: 1; flex: 1 1 0%"
+              >
+                <div class="container-base myx-stretch">
+                  <div style="padding-bottom: 130.62%">
+                    <div class="container-container container-aspectContainer">
+                      <div class="row-base" style="display: -webkit-flex">
+                        <div
+                          class="column-base"
+                          style="-webkit-box-flex: 1; flex: 1 1 0%"
+                        >
+                          <a
+                            href="https://www.myntra.com/grooming?f=Brand%3ABeardhood%2CBombay%20Shaving%20Company%2CFoolzy%2CTHE%20MAN%20COMPANY%2CUstraa&amp;rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0"
+                            ><picture draggable="false" class="img-responsive"
+                              ><source
+                                srcset="
+                                  https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/13e0b31a-061e-4833-90dc-1b074fb9912a1707130586996-Shop-By-Category_HP_13.jpg
+                                "
+                                type="image/webp" />
+                              <img
+                                draggable="false"
+                                class="image-image undefined image-hand"
+                                src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/13e0b31a-061e-4833-90dc-1b074fb9912a1707130586996-Shop-By-Category_HP_13.jpg"
+                                srcset="" /></picture
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </body>
+</html>
