@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    
+}
+
+.top-header{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.top-header-left .social-icon{
+    display: flex;
+}
+.top-header-left .social-icon a{
+   color: #bbbaba;
+   text-decoration: none;
+   padding: 0 10px;
+   font-size: 20px;
+}
+
+.top-header-right .contact-list ul li{
+    display: inline;
+}
+.top-header-right .contact-list ul li a{
+   color: #f1f0f0;
+   text-decoration: none;
+   font-size: 15px;
+   padding: 0 10px;
+   font-weight: 600;
+}
+.bottom-header{
+    height: 80px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.bottom-header .bottom-header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-header .bottom-header-logo h2{
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-header .bottom-header-logo h2 i{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(11, 109, 93);
+    margin-right: 10px;
+}
+
+.bottom-header .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 40px;
+}
+
+.bottom-header .fa-bars{
+    font-size: 25px;
+    font-weight: 700;
+    display: none;
+}
+
+.bottom-header .navigation li a{
+   text-decoration: none;
+   color: #000;
+   font-weight: 700;
+   font-size: 16px;
+}
+
+.hero-section{
+    background: url(banner.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.hero-section .container{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 45%;
+    height: auto;
+}
+.hero-section .container .hero-text{
+   color: #fff;
+}
+.hero-section .container .hero-text h4{
+   font-size: 45px;
+   font-weight: 80;
+}
+.hero-section .container .hero-text h4 span{
+   font-size: 50px;
+   font-weight: 800;
+}
+.hero-section .container .hero-text p{
+   font-size: 17px;
+   margin: 30px 0;
+   width: 100%;
+}
+.hero-section .container .hero-text button{
+   padding: 15px 30px;
+   border-radius: 30px;
+   border: 0;
+   outline: none;
+   background: #fff;
+   color: #000;
+   font-size: 20px;
+   font-weight: 600;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+.hero-section .dog-image{
+    position: absolute;
+    right: 0;
+}
+.hero-section .dog-image img{
+    width: 500px;
+}
+
+.pet-selection{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.pet-selection .heading{
+    text-align: center;
+}
+.pet-selection .heading h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.card-section{
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    justify-content: center;
+    gap: 20px;
+}
+.card-section .card{
+    background: rgb(246, 252, 250);
+    padding: 20px;
+    border-radius: 6px;
+    margin: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
+    border: 1px solid transparent;
+
+}
+.card-section .card:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(190, 206, 203);
+}
+
+.card i{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(11, 109, 93);
+}
+.card h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+.card p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+
+.adoption-form{
+    width: 100%;
+    padding: 0 50px;
+}
+
+.adoption-form .container{
+    background: rgb(246, 252, 250);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.adoption-form .container h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.adoption-form .container .btn{
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    background: rgb(11, 109, 93);
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-section{
+    width: 100%;
+    background: rgb(246, 252, 250);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.footer-top, .footer-bottom {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.footer-section .footer-top .container .row{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.footer-section .footer-top .container .row .col div{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer-section .footer-top .container .row .col ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+ .footer-top .container .row .col ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+ .footer-top .container .row .col .bottom-header-logo h2{
+    font-size: 25px;
+}
+ .footer-top .container .row .col .social-icon{
+    font-size: 25px;
+    margin-top: 30px;
+    color: #000;
+    
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:767px){
+    .top-header{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .bottom-header .navigation{
+        display: none;
+    }
+    .bottom-header .fa-bars{
+        display: block;
+    }
+    .hero-section .dog-image{
+        display: none;
+    }
+
+    .hero-section .container{
+        top: 10%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero-section .container .hero-text h4{
+        font-size: 30px;
+     }
+     .hero-section .container .hero-text h4 span{
+        font-size: 40px;
+     }
+     .hero-section .container .hero-text p{
+        font-size: 16px;
+        width: 80%;
+     }
+     .hero-section .container .hero-text button{
+        padding: 12px 25px;
+        font-size: 18px;
+       
+     }
+     
+.card-section{
+    flex-wrap: wrap;
+}
+
+.adoption-form .container{
+   flex-direction: column;
+}
+.adoption-form .container h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+}
+
+@media  only screen and (max-width:1102px) {
+    .hero-section .dog-image img{
+        width: 300px;
+    }
+    .top-header{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .bottom-header .navigation{
+        display: none;
+    }
+    .bottom-header .fa-bars{
+        display: block;
+    }
+    
+    .hero-section .container{
+        top: 10%;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .hero-section .container .hero-text h4{
+        font-size: 30px;
+     }
+     .hero-section .container .hero-text h4 span{
+        font-size: 40px;
+     }
+     .hero-section .container .hero-text p{
+        font-size: 16px;
+        width: 80%;
+     }
+     .hero-section .container .hero-text button{
+        padding: 12px 25px;
+        font-size: 18px;
+       
+     }
+}
+
+
+   
