@@ -1,0 +1,580 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.top-header{
+  width: 100vw;
+  background: #272626;
+  height: 40px;
+  color: #c7c5c5;
+  padding: 10px 50px;
+
+}
+.top-header .top-nav p{
+  font-size: 14px;
+}
+header {
+  background: #ffffff;
+  width: 100%;
+  color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  justify-content: space-between;
+  height: 70px;
+  font-size: 1.2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav .app_link a {
+  text-decoration: none;
+  color: #1d1c1c;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+nav ul {
+  color: #201f1f;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 13px;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: .9rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+.hero{
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.hero-top-video:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(0,0,0,0.7);
+  
+}
+
+.hero-top-video {
+
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+.hero-top-video .video{
+  width: 100%;
+  object-fit: cover;
+}
+
+.content_wrapper {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+.content_wrapper h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0px;
+}
+.content_wrapper h2 {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.content_wrapper h2 span {
+ font-size: 1.1rem;
+  color: #f0a211;
+ font-weight: 600;
+}
+
+
+.book-table{
+  margin-top: 30px;
+  border: 1px solid #fff;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.4);
+}
+.book-table:hover{
+  background: #f0a211;
+  border: 1px solid transparent;
+}
+
+
+/* ...........About Us Section............ */
+
+#about-us{
+  width: 100vw;
+  padding: 50px 0;
+  background: #fff;
+}
+#about-us .container{
+  width: 80%;
+  margin: 0px auto;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+#about-us .about-left{
+  width: 50%;
+  padding-top: 30px;
+}
+#about-us .about-right{
+  width: 40%;
+}
+#about-us .about-right img{
+  width: 100%;
+}
+#about-us .about-left h1{
+  font-size: 55px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#about-us .about-left h3{
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #666565;
+  margin-bottom: 10px;
+}
+#about-us .about-left p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #666565;
+}
+#about-us .about-left button{
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #666565;
+  margin-top: 40px;
+  background: transparent;
+  padding: 14px 20px;
+  border: 1px solid #6d6c6c;
+}
+#about-us .about-left button:hover{
+  background: #f0a211;
+  border: 1px solid transparent;
+  color: #fff;
+
+}
+
+/* .................Blog Section.............. */
+
+#blog, #menu-section{
+  width: 100vw;
+  padding: 50px 0;
+  background: #f7f7f7;
+}
+
+#blog .container{
+  width: 90%;
+  margin: 0px auto;
+  padding: 40px 0;
+
+ 
+}
+ .container h2{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#blog .container .row{
+margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap; 
+  padding: 20px;
+}
+
+#blog .container .row .col{
+  width: 350px;
+  height: auto;
+  background: #fff;
+ 
+}
+#blog .container .row .col a{
+  text-decoration: none;
+}
+#blog .container .row .col img{
+  width: 100%;
+object-fit: cover;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+#blog .container .row .col div a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color: #b3b2b2;
+  font-size: 15px;
+}
+#blog .container .row .col h3 {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0;
+}
+#blog .container .row .col p a {
+  padding:  10px 20px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 550;
+  background: #f0a211;
+  border: 1px solid transparent;
+}
+#blog .container .row .col p a:hover {
+  border: 1px solid #f0a211;
+color: #f0a211;
+  background: transparent;
+  transition: 0.5s ease-in;
+}
+#blog .container .row .col p {
+margin-bottom: 30px;
+}
+
+/* .................Menu Section................... */
+
+#menu-section{
+  background: #fcf6f6;
+}
+#menu-section .container{
+  padding: 50px 20px;
+}
+
+#menu-section .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#menu-section .row .menu-card{
+  width: 550px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #c4c3c3;
+  background: #fff;
+}
+#menu-section .row .menu-reverse{
+ 
+  flex-direction: row-reverse;
+
+}
+
+#menu-section .row .menu-card .menu-img{
+  width: 50%;
+  height: 100%;
+}
+#menu-section .row .menu-card .menu-img img{
+  width: 100%;
+  height: 100%;
+}
+#menu-section .row .menu-card .menu-text{
+  padding-right: 10px;
+}
+#menu-section .row .menu-card .menu-text{
+  padding:0 20px;
+}
+#menu-section .row .menu-card .menu-text h4, .menu-text p{
+  margin-bottom: 10px;
+}
+#menu-section .row .menu-card .menu-text .price{
+ color: #000;
+ font-weight: 600;
+ font-size: 20px;
+}
+#menu-section .row .menu-card .menu-text .btn a{
+ text-decoration: none;
+ background: #f0a211;
+ padding: 6px;
+ color: #fff;
+ font-size: 14px;
+
+}
+
+/* ................Contact Section................. */
+#contact-us{
+  background:  url('blog-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#contact-us .container{
+  padding: 60px;
+}
+
+#contact-us .contact-form{
+  max-width: 600px;
+  background: #fff;
+  margin-left: 30px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contact-us .contact-form form{
+  width: 100%;
+}
+#contact-us .contact-form h3{
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+#contact-us .contact-form div{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+#contact-us .contact-form div input{
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+}
+#contact-us .contact-form div label{
+ font-size: 16px;
+ margin-bottom: 5px;
+ font-weight: 600;
+}
+#contact-us .contact-form form button{
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #f0a211;
+  border: 1px solid transparent;
+  outline: none;
+  font-size: 16px;
+  font-weight: 550;
+  color: #fff;
+}
+#contact-us .contact-form form button:hover{
+color: #000;
+  background: transparent;
+  border: 1px solid #f0a211;
+  transition: 0.5s;
+
+}
+
+
+
+/* .............Footer Section-------------- */
+
+
+#footer {
+  width: 100%;
+  background: #242424;
+  padding: 20px 0;
+}
+
+#footer .container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+
+.footer-top img {
+  width: 150px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links .column {
+  margin: 40px 10px;
+}
+.footer-links .column .col-links {
+  list-style: none;
+  margin-top: 16px;
+}
+
+.col-links li {
+  margin: 10px 0;
+}
+
+.col-links li a {
+  text-decoration: none;
+  color: #cfcece;
+  cursor: pointer;
+  font-size: 15px;
+}
+.col-links li a:hover {
+  color: #fabb47;
+}
+.col-links a i {
+  padding: 8px;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 50%;
+  background:transparent;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+  margin-right: 6px;
+}
+.col-links a i:hover { 
+  color: #f0a211;
+  background:#fff;
+  border: 1px solid #f0a211;
+  
+}
+
+.footer-links .column div {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.newsletter{
+  margin-top: 30px;
+}
+.newsletter form, .newsletter button{
+  width: 100%;
+}
+.newsletter form input, .newsletter button{
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #f0a211;
+  outline: none;
+}
+.newsletter button{
+  background: #f0a211;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #cecccc;
+}
+hr{
+  border: 1px solid #5e5d5d;
+}
+
+@media only screen and (max-width: 540px) {
+  header{
+
+  }
+
+ .top-header{
+  display: none;
+ }
+ .hero{
+  display: none;
+ }
+
+nav {
+  font-size: 1rem;
+  width: 96%;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  height: 120px;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 7px;
+  
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .top-header .top-nav p{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .hero .content_wrapper h1{
+   font-size: 30px;
+  }
+  .hero .content_wrapper h2{
+   font-size: 14px;
+   margin-bottom: 10px;
+  }
+  .hero .content_wrapper .book-table{
+   margin-top: 10px;
+   padding: 6px;
+  }
+  #menu-section .container{
+    padding: 0 40px;
+  }
+  #menu-section .row .menu-reverse{
+    flex-direction: row;
+  }
+ 
+  #about-us .container {
+    flex-direction: column-reverse;
+   gap: 60px;
+  }
+
+  #about-us .about-left{
+    width: 100%;
+  }
+  #about-us .about-right{
+    width: 100%;
+  }
+  #about-us .about-right img{
+    width: 100%;
+  }
+}
