@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('images/hero1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 20px;
+}
+
+.container{
+    width: 90%;
+    height: 60px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 30px;
+    border-radius: 30px;
+    border: 1px solid #03a038;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .nav-list li{
+    display: inline;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: 700;
+ }
+
+ .nav-list{
+    display: none;
+ }
+
+ .menu-icon{
+    font-size: 24px;
+    font-weight: 700;
+ }
+
+ .logo{
+    font-size: 24px;
+ }
+
+ .hero-section .content_wrapper{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 0 20px;
+    margin: 0 auto;
+ }
+
+ .content_wrapper h1{
+    font-size: 24px;
+    font-weight: 700;
+ }
+
+ form{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #eed80f, rgb(5, 118, 170));
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ align-items: center;
+ justify-content: left;
+ padding: 30px;
+ }
+
+ .search-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .search-item div{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 10px;
+ }
+
+ .search-item input{
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+    border: 0;
+    outline: 0;
+    color: #5a5959;
+ }
+ .search_btn{
+    height: 50px;
+    padding: 0 46px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    background: #31124b;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+ }
+
+ .services{
+    padding: 100px 0;
+    background: #e6f7ec;
+ }
+
+ .services h5{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+ }
+ .services h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+ .services .row{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    gap: 20px;
+ }
+
+ .services .row .col{
+    background: linear-gradient(to top, #fafafa, #c8f3d7);
+    padding: 40px;
+    text-align: center;
+    margin: 30px 10px;
+ }
+ .services .row .col h2 {
+   font-size: 24px;
+   margin: 20px;
+   font-weight: 700;
+ }
+
+ .destination{
+    background: #f7efef;
+ }
+
+ .destination-card{
+    background: #fff;
+    margin: 30px 10px;
+    padding-bottom: 30px;
+    border: 1px solid #ccc;
+    
+ }
+ .destination-card img{
+    width: 100%;
+    height: 300px;
+ }
+ .destination-card h2 {
+    margin: 20px 10px 0;
+ }
+ .destination-card p {
+    margin: 10px 10px 20px;
+ }
+ .destination-card a {
+    margin: 10px 10px 20px;
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 6px 20px;
+    font-weight: 600;
+ }
+
+ footer{
+    width: 100%;
+    padding: 15px 0;
+    background: #05491c;
+ }
+
+ footer p{
+    text-align: center;
+    color: #ccc;
+ }
+
+
+ @media  only screen and (min-width: 768px) {
+    .nav-list{
+        display: block;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .hero-section .content_wrapper{
+        top: 40%;
+     }
+    
+     .content_wrapper h1{
+        font-size: 55px;
+       
+     }
+    
+     .content_wrapper p{
+        font-size: 25px;
+        margin: 10px 0;
+       
+     }
+
+     form{
+        
+     justify-content: center;
+     
+     }
+
+     form .search-item input{
+        height: 40px;
+     }
+ }
